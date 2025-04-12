@@ -6,7 +6,14 @@
     <value>Лайнер</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.п3_Этажи</content>
   <content>DataProcessor.п2_ВнешниеОтчеты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Прайслист</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>AccumulationRegister.Остатки</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Report.п4_ОстаткиПрайсы</content>
 </mdclass:Subsystem>

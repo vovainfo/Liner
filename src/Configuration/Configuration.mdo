@@ -40,6 +40,17 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Лайнер</subsystems>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.Регистры</commandGroups>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Прайслист</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <reports>Report.п4_ОстаткиПрайсы</reports>
   <dataProcessors>DataProcessor.п2_ВнешниеОтчеты</dataProcessors>
   <dataProcessors>DataProcessor.п3_Этажи</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
 </mdclass:Configuration>
