@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d22beb1-76be-4f9b-8ae1-a2a512d64df4">
+  <producedTypes>
+    <objectType typeId="a3e3bc7e-c905-49c5-a9e3-ecffcb32dcfa" valueTypeId="05d9b62c-05be-430e-92e6-c0dbc9af8d90"/>
+    <managerType typeId="a50bc39b-1324-4a02-a12a-37d41a099bbf" valueTypeId="d1f937a0-2a19-412f-b45a-bb255f848190"/>
+  </producedTypes>
+  <name>п3_Этажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>3. Этажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.п3_Этажи.Form.Форма</defaultForm>
+  <forms uuid="9dfed113-7f3e-455e-837f-0bb6bcdf03f3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
