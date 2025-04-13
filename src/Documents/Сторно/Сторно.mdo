@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8614398-4213-41e7-b686-378d068373fc">
+  <producedTypes>
+    <objectType typeId="b452c3ef-67ba-4d0f-a740-2894f0623999" valueTypeId="f566f961-7020-40e8-ba42-fb8b82d51b59"/>
+    <refType typeId="395ae6ba-3774-4ad8-acb8-cfe9ab79fd32" valueTypeId="a9e562c5-7613-4053-85f9-fea6f3e9df93"/>
+    <selectionType typeId="9b5dc7d9-78de-4592-9783-9fdba7948fc9" valueTypeId="63e33604-31f7-4597-aff1-7ab0f8eaa276"/>
+    <listType typeId="37e7007c-f2fa-49da-8909-f11b2a91187c" valueTypeId="c7f3bde4-bb67-4628-a8b5-ab7da3f82d33"/>
+    <managerType typeId="06b868e3-4d80-4f13-96d3-ab452a97f2c2" valueTypeId="b7392773-5a26-42fb-82a9-a15dafe8e128"/>
+  </producedTypes>
+  <name>Сторно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сторно</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Сторно.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПриходнаяНакладная</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сторно</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Остатки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="61431398-2b94-49b4-914f-5b78b7c34f41">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходнаяНакладная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

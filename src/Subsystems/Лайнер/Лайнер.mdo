@@ -19,4 +19,6 @@
   <content>Report.п6_ОстаткиНаСкладах</content>
   <content>DataProcessor.п1_ЖР_Обмены</content>
   <content>ExchangePlan.ПланОбменаСправочники</content>
+  <content>DataProcessor.п5_Сторнирование</content>
+  <content>Document.Сторно</content>
 </mdclass:Subsystem>

@@ -21,14 +21,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Период</dataPath>
-			<field>Период</field>
-			<role>
-				<dcscom:periodNumber>2</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Регистратор</dataPath>
 			<field>Регистратор</field>
 			<role>
@@ -70,7 +62,6 @@
 		<query>ВЫБРАТЬ
 	ОстаткиОстаткиИОбороты.Склад,
 	ОстаткиОстаткиИОбороты.Номенклатура,
-	ОстаткиОстаткиИОбороты.Период,
 	ОстаткиОстаткиИОбороты.Регистратор,
 	ОстаткиОстаткиИОбороты.КоличествоОборот,
 	ОстаткиОстаткиИОбороты.КоличествоПриход,
@@ -137,9 +128,6 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Регистратор</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Период</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>

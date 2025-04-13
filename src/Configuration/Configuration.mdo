@@ -50,10 +50,12 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.Сторно</documents>
   <reports>Report.п4_ОстаткиПрайсы</reports>
   <reports>Report.п6_ОстаткиНаСкладах</reports>
   <dataProcessors>DataProcessor.п1_ЖР_Обмены</dataProcessors>
   <dataProcessors>DataProcessor.п2_ВнешниеОтчеты</dataProcessors>
   <dataProcessors>DataProcessor.п3_Этажи</dataProcessors>
+  <dataProcessors>DataProcessor.п5_Сторнирование</dataProcessors>
   <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
 </mdclass:Configuration>

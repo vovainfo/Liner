@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b98229b-ff8f-4d7a-ae07-7a2ae5fb6019">
+  <producedTypes>
+    <objectType typeId="b70792d6-cd55-465f-b814-a75a8a0c9115" valueTypeId="f239aa78-c1b6-4e13-b3bf-2d07c7959915"/>
+    <managerType typeId="e95f4bc6-0b98-468a-8537-a70fdd804f69" valueTypeId="d4d8ea72-49e5-4c51-81d9-2f74401127aa"/>
+  </producedTypes>
+  <name>п5_Сторнирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>5. Сторнирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.п5_Сторнирование.Form.Форма</defaultForm>
+  <forms uuid="15caaf06-444f-40ef-9228-79f69f7bc3c4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

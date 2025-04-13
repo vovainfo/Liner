@@ -116,16 +116,16 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаОтобрать</name>
-      <id>9</id>
+      <name>ФормаЗарегистрироватьВОбмене</name>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтобратьРасширеннаяПодсказка</name>
-        <id>10</id>
+        <name>ФормаЗарегистрироватьВОбменеРасширеннаяПодсказка</name>
+        <id>12</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -133,7 +133,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Отобрать</commandName>
+      <commandName>Form.Command.ЗарегистрироватьВОбмене</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -211,54 +211,19 @@
       <segments>ОкончаниеПериода</segments>
     </settingsSavedData>
   </attributes>
-  <attributes>
-    <name>ТЗ</name>
-    <title>
-      <key>ru</key>
-      <value>ТЗ</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>Уровень</name>
-      <title>
-        <key>ru</key>
-        <value>Уровень</value>
-      </title>
-      <id>5</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-  </attributes>
   <formCommands>
-    <name>Отобрать</name>
+    <name>ЗарегистрироватьВОбмене</name>
     <title>
       <key>ru</key>
-      <value>Отобрать</value>
+      <value>Зарегистрировать в обмене</value>
     </title>
-    <id>1</id>
+    <id>2</id>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Отобрать</name>
+        <name>ЗарегистрироватьВОбмене</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
