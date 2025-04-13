@@ -16,4 +16,7 @@
   <content>AccumulationRegister.Остатки</content>
   <content>Document.РасходнаяНакладная</content>
   <content>Report.п4_ОстаткиПрайсы</content>
+  <content>Report.п6_ОстаткиНаСкладах</content>
+  <content>DataProcessor.п1_ЖР_Обмены</content>
+  <content>ExchangePlan.ПланОбменаСправочники</content>
 </mdclass:Subsystem>

@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Лайнер</subsystems>
+  <exchangePlans>ExchangePlan.ПланОбменаСправочники</exchangePlans>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Регистры</commandGroups>
@@ -50,6 +51,8 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <reports>Report.п4_ОстаткиПрайсы</reports>
+  <reports>Report.п6_ОстаткиНаСкладах</reports>
+  <dataProcessors>DataProcessor.п1_ЖР_Обмены</dataProcessors>
   <dataProcessors>DataProcessor.п2_ВнешниеОтчеты</dataProcessors>
   <dataProcessors>DataProcessor.п3_Этажи</dataProcessors>
   <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>

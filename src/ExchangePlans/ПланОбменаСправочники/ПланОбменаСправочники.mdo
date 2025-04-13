@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71680ff8-fb3e-4797-82aa-06b592009de1" thisNode="4474b84f-fd8d-42dc-a3e3-b8dfde08b40e">
+  <producedTypes>
+    <objectType typeId="428c8ebf-2179-4679-9af5-98c82c3bf179" valueTypeId="f6a4b2fd-1e76-46bc-83af-cadd4844d26a"/>
+    <refType typeId="5926b0d3-7847-4e1d-aa02-e878bbef5094" valueTypeId="ca6cd904-1cd5-403a-82be-245066186bc6"/>
+    <selectionType typeId="aeaf1d36-8479-4a6e-91fa-539b285766d5" valueTypeId="3d9a87e0-ef46-48bd-a4bb-c9ddc3632846"/>
+    <listType typeId="aee4f8d3-aede-4b8c-9090-86a99da7b40f" valueTypeId="cbaaa4c7-ba72-4352-bcff-2a4dc7776b79"/>
+    <managerType typeId="9d1fe91b-1843-41d1-90c4-8b91fb503a55" valueTypeId="a2f43c93-613d-4f40-8cab-95c848e73e4e"/>
+  </producedTypes>
+  <name>ПланОбменаСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>План обмена справочники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ПланОбменаСправочники.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ПланОбменаСправочники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ПланОбменаСправочники</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>
